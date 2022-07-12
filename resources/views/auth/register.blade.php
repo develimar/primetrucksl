@@ -14,21 +14,24 @@
 
             <!-- First Name -->
             <div class="mt-4">
-                <x-label for="firstname" :value="__('First Name')" />
+{{--                <x-label for="firstname" :value="__('First Name')" />--}}
+                <x-label for="firstname" :value="__('Nome')" />
 
                 <x-input id="firstname" class="block mt-1 w-full" type="text" name="firstname" :value="old('firstname')" required autofocus />
             </div>
 
             <!-- Last Name -->
             <div class="mt-4">
-               <x-label for="lastname" :value="__('Last Name')" />
+{{--               <x-label for="lastname" :value="__('Last Name')" />--}}
+               <x-label for="lastname" :value="__('Sobrenome')" />
 
                <x-input id="lastname" class="block mt-1 w-full" type="text" name="lastname" :value="old('lastname')" required autofocus />
             </div>
 
             <!-- Username -->
             <div class="mt-4">
-               <x-label for="username" :value="__('Username')" />
+{{--               <x-label for="username" :value="__('Username')" />--}}
+               <x-label for="username" :value="__('Usuário')" />
 
                <x-input id="username" class="block mt-1 w-full" type="text" name="username" :value="old('username')" required autofocus />
             </div>
